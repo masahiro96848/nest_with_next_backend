@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/platform-express", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:9.3.10"],\
             ["@nestjs/schematics", "virtual:0322896fcb0198403923f1dd38404de5165e7c9ab6390da7e5f1ccf1e15d84b73a2285171bb69cd295b5be69afff6b8c3d8b22473d7735be934a66541951767b#npm:9.0.4"],\
             ["@nestjs/testing", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:9.3.10"],\
+            ["@prisma/client", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.11.0"],\
             ["@types/express", "npm:4.17.17"],\
             ["@types/jest", "npm:29.2.4"],\
             ["@types/node", "npm:18.11.18"],\
@@ -45,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.2.1"],\
             ["jest", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:29.3.1"],\
             ["prettier", "npm:2.8.5"],\
+            ["prisma", "npm:4.11.0"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rxjs", "npm:7.8.0"],\
             ["source-map-support", "npm:0.5.21"],\
@@ -1718,6 +1720,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@prisma/client", [\
+        ["npm:4.11.0", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-6a0a1b065f/node_modules/@prisma/client/",\
+          "packageDependencies": [\
+            ["@prisma/client", "npm:4.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.11.0", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-6a0a1b065f/node_modules/@prisma/client/",\
+          "packageDependencies": [\
+            ["@prisma/client", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.11.0"],\
+            ["@prisma/engines-version", "npm:4.11.0-57.8fde8fef4033376662cad983758335009d522acb"],\
+            ["@types/prisma", null],\
+            ["prisma", "npm:4.11.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/prisma",\
+            "prisma"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/engines", [\
+        ["npm:4.11.0", {\
+          "packageLocation": "./.yarn/unplugged/@prisma-engines-npm-4.11.0-9458416c54/node_modules/@prisma/engines/",\
+          "packageDependencies": [\
+            ["@prisma/engines", "npm:4.11.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@prisma/engines-version", [\
+        ["npm:4.11.0-57.8fde8fef4033376662cad983758335009d522acb", {\
+          "packageLocation": "./.yarn/cache/@prisma-engines-version-npm-4.11.0-57.8fde8fef4033376662cad983758335009d522acb-815118988f-f040b93d09.zip/node_modules/@prisma/engines-version/",\
+          "packageDependencies": [\
+            ["@prisma/engines-version", "npm:4.11.0-57.8fde8fef4033376662cad983758335009d522acb"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@sinclair/typebox", [\
         ["npm:0.25.24", {\
           "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.25.24-d04d0f45ef-10219c58f4.zip/node_modules/@sinclair/typebox/",\
@@ -2800,6 +2843,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/platform-express", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:9.3.10"],\
             ["@nestjs/schematics", "virtual:0322896fcb0198403923f1dd38404de5165e7c9ab6390da7e5f1ccf1e15d84b73a2285171bb69cd295b5be69afff6b8c3d8b22473d7735be934a66541951767b#npm:9.0.4"],\
             ["@nestjs/testing", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:9.3.10"],\
+            ["@prisma/client", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.11.0"],\
             ["@types/express", "npm:4.17.17"],\
             ["@types/jest", "npm:29.2.4"],\
             ["@types/node", "npm:18.11.18"],\
@@ -2811,6 +2855,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:4.2.1"],\
             ["jest", "virtual:94e1851009f0e1040d7283a14fc3eeb8a48a7166ff15f5234bc9da0f1dcc777f0ed699121898b17fd3a352ae23a17436ee46e92149fa0b631c8ae0e2e596c002#npm:29.3.1"],\
             ["prettier", "npm:2.8.5"],\
+            ["prisma", "npm:4.11.0"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rxjs", "npm:7.8.0"],\
             ["source-map-support", "npm:0.5.21"],\
@@ -7041,6 +7086,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jest/schemas", "npm:29.4.3"],\
             ["ansi-styles", "npm:5.2.0"],\
             ["react-is", "npm:18.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prisma", [\
+        ["npm:4.11.0", {\
+          "packageLocation": "./.yarn/unplugged/prisma-npm-4.11.0-5f8635d1be/node_modules/prisma/",\
+          "packageDependencies": [\
+            ["prisma", "npm:4.11.0"],\
+            ["@prisma/engines", "npm:4.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
